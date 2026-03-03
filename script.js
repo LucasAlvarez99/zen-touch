@@ -17,12 +17,39 @@ const SERVICIOS = {
 
 // ─── PALABRAS CENSURADAS ──────────────────────────────
 const PALABRAS_BLOQUEADAS = [
-  "sexual","sexo","erótico","erótica","erotico","erotica","tantrico","tántrico",
-  "desnudo","desnuda","feliz final","happy ending","sensual","íntimo","intimo",
-  "cuerpo a cuerpo","masaje adulto","escorts","prepago","prostitu",
-  "toco","tocame","tocarme","placer","orgasmo","vagina","pene","tetas","culo",
-  "paja","mamada","chupar","coger","follar","sexting","nudes","fotos",
-  "videollamada","cam","masajista sexy","masajista linda","señorita","chica",
+  // Sexual explícito
+  "sexual","sexo","sex","erótico","erótica","erotico","erotica","xxx","porn","porno",
+  "tantrico","tántrico","desnudo","desnuda","desnudate","encuerada","encuerado",
+  "feliz final","happy ending","sensual","íntimo","intimo","intimidad",
+  "cuerpo a cuerpo","masaje adulto","masaje erotico","masaje erótico",
+  "escort","escorts","prepago","prostituta","prostituto","prostitu","puta","puto",
+  "servicio completo","servicio especial","servicio privado",
+
+  // Partes del cuerpo
+  "vagina","pene","tetas","teta","culo","cola","nalgas","pechos","senos",
+  "pezones","clitoris","clítoris","miembro","bulto","paquete",
+
+  // Actos sexuales
+  "paja","mamada","chupar","chupame","chupalo","coger","follar",
+  "penetrar","penetracion","penetración","acabar","venirse",
+  "orgasmo","correrse","eyacular","sexting","nudes","pack",
+  "fotos hot","fotos desnuda","fotos desnudo","videollamada hot",
+  "cam","webcam","onlyfans","only fans",
+
+  // Frases típicas desubicadas
+  "cuanto cobras","cuánto cobrás","precio por hora",
+  "haces final feliz","haces feliz final",
+  "mandame foto","mandame fotos","manda fotos",
+  "estas sola","estás sola","estas disponible",
+  "estas buena","estás buena","que rica",
+  "que cuerpo","que lindo cuerpo",
+  "quiero verte","quiero tocarte","tocame","tocarte","tocar",
+  "placer","morbo","fantasia","fantasía",
+  "masajista sexy","masajista linda","señorita","chica sexy",
+  "bebota","mamacita","bombon","bombón",
+
+  // Abreviaciones comunes
+  "q rico","rico bb","bb","baby","bby","hot","caliente"
 ];
 
 function censurar(texto) {
